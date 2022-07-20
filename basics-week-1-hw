@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    .list{
+
+        text-align: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .current {
+        font-size: 34px;
+        
+    }
+
+    .current-weather {
+        color: #1a64d6;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    .high-low {
+        color: black;
+        font-size: 20px;
+        margin: 8px;
+    }
+
+     .Day-of-the-Week {
+
+        color: black;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px;
+        
+    }
+
+    .temperature {
+        font-size: 16px;
+        font-weight: normal;
+        font-family: monospace;
+        margin: 10px;
+    }
+
+    .future-weather {
+
+        display: block;
+        align-items: center;
+
+    }
+
+    .tomorrow-weather {
+
+        display: block;
+        padding: 10px 0;
+        margin: auto;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+
+    }
+
+    .tomorrow-weather:hover {
+
+         background: #FEFBEF; 
+
+    }       
+
+    .sat-weather {
+
+        display: block;
+        padding: 10px 0;
+        margin: auto;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+
+    }
+
+    .sat-weather:hover {
+
+         background: #FEFBEF; 
+
+    }       
+
+    .sun-weather {
+
+        padding: 10px 0;
+        margin: auto;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        
+
+    }
+
+    .sun-weather:hover {
+
+         background: #FEFBEF; 
+
+    }       
+
+    button {
+
+        display: block;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 0 auto;
+        color: white;
+        border-radius: 40px;
+        background: #1a64d6;
+        border: 2px solid #1a64d6;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        transition: all 200ms ease-in-out;
+
+    }
+
+
+      button:hover {
+
+          background: white;
+          color: #1a64d6;
+          cursor: pointer;
+
+        }
+
+
+
+    p {
+
+        font-family: monospace;
+        font-size: 18px;
+
+    }
+
+    
+
+
+
+   
+
+</style>
+
+
+</head>
+<body>
+
+    <div class="list">
+    <div class="current">
+        <span class="top-emoji">
+             🌤
+        </span>
+        <div class="current-weather">
+             Currently 21° in Tokyo
+        </div>
+        <div class="high-low">
+             13° / <strong> 23° </strong>
+        </div>
+    </div>
+
+    <div class="future weather">
+
+    <div class="tomorrow-weather">
+     <span class="Day-of-the-Week"> 
+        🌧 Tomorrow
+            <div class="temperature">  
+             10° / <strong> 22°</strong>
+            </div>
+     </span>
+    </div>
+
+    <div class="sat-weather">
+     <span class="Day-of-the-Week"> 
+         🌥 Saturday
+            <div class="temperature">  
+                 15° / <strong> 17°</strong>
+            </div>
+        </span>
+     </div>
+
+     <div class="sun-weather">
+        <span class="Day-of-the-Week"> 
+             ☀️ Sunday
+            <div class="temperature">  
+                25° / <strong> 28°</strong>
+            </div>
+         </span>
+      </div>
+
+     <button>
+         Change city
+     </button>
+
+     <p>
+
+    Coded by Krystal Hortizuela
+
+    </p>
+     
+
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
